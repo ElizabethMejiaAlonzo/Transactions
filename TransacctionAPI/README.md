@@ -6,15 +6,15 @@ We emulate debit and credit operations for a single user, so we always have just
 
 ``` https://localhost:44354/index.html```
 
-![All the Methods](./Images/01.png)
-![Schemas](./Images/04.png)
+![All the Methods](../Images/01.png)
+![Schemas](../Images/04.png)
 
 ## GET all Transactions
 
 ``` https://localhost:44354/Transaction ```
 
-![ASPNETCOREWebAPIGET](./Images/02.png)
-![ASPNETCOREWebAPIGETEXAMPLE](./Images/06.png)
+![ASPNETCOREWebAPIGET](../Images/02.png)
+![ASPNETCOREWebAPIGETEXAMPLE](../Images/06.png)
 
 ## Add new Transaction
 
@@ -32,6 +32,6 @@ We emulate debit and credit operations for a single user, so we always have just
 ```
 Note: If the type field is 0, the value is Debit, otherwise if it is 1 the value is Credit
 
-![ASPNETCOREWebAPIPOST](./Images/03.png)
-![ASPNETCOREWebAPIPOSTEXAMPLE](./Images/05.png)
+![ASPNETCOREWebAPIPOST](../Images/03.png)
+![ASPNETCOREWebAPIPOSTEXAMPLE](../Images/05.png)
 
