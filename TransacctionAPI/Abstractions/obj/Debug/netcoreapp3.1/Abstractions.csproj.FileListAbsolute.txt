@@ -1,0 +1,9 @@
+C:\Users\TGUsr1\source\repos\TransacctionAPI\Abstractions\bin\Debug\netcoreapp3.1\Abstractions.deps.json
+C:\Users\TGUsr1\source\repos\TransacctionAPI\Abstractions\bin\Debug\netcoreapp3.1\Abstractions.dll
+C:\Users\TGUsr1\source\repos\TransacctionAPI\Abstractions\bin\Debug\netcoreapp3.1\Abstractions.pdb
+C:\Users\TGUsr1\source\repos\TransacctionAPI\Abstractions\obj\Debug\netcoreapp3.1\Abstractions.csprojAssemblyReference.cache
+C:\Users\TGUsr1\source\repos\TransacctionAPI\Abstractions\obj\Debug\netcoreapp3.1\Abstractions.AssemblyInfoInputs.cache
+C:\Users\TGUsr1\source\repos\TransacctionAPI\Abstractions\obj\Debug\netcoreapp3.1\Abstractions.AssemblyInfo.cs
+C:\Users\TGUsr1\source\repos\TransacctionAPI\Abstractions\obj\Debug\netcoreapp3.1\Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\TGUsr1\source\repos\TransacctionAPI\Abstractions\obj\Debug\netcoreapp3.1\Abstractions.dll
+C:\Users\TGUsr1\source\repos\TransacctionAPI\Abstractions\obj\Debug\netcoreapp3.1\Abstractions.pdb
