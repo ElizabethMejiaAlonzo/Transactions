@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="jumbotron">
+        <h1>Angular Bootstrap</h1>
+        <p class="lead">
+          This demo shows how to integrate Bootstrap 4 with Angular 11
+        </p>
+        <div class="col-sm-8 offset-sm-2">
+
+
+
+          <div class="text-danger" *ngIf="transacction.length == 0"><p>Data is empty!</p></div>
+          <div *ngIf="transacction.length > 0">
+
+            <div class="row head-table">
+              <div class="col-sm-4">Transaccion Type</div>
+              <div class="col-sm-4 text-center">Date</div>
+              <div class="col-sm-4 text-right">Amount</div>
+            </div>
+
+            <div class="accordion" id="accordionTransaccion" *ngFor="let item of transacction; let i = index;">
+              <div class="card">
+                <div class="card-header p-3 mb-2 text-white" [id]="'heading' + i" data-toggle="collapse"
+                  [attr.data-target]="'#collapse' + i" [ngClass]="item.type == 1 ? 'bg-primary' : 'bg-info'">
+                  <div class="row">
+                    <div class="col-sm-4">{{ item.type == 1 ?
+                      'Credit' : 'Debit' }}</div>
+                    <div class="col-sm-4 text-center"><small>{{ item.creationDate }}</small></div>
+                    <div class="col-sm-4 text-right" [ngClass]="item.status ? 'text-success' : 'text-danger'">$ {{
+                      item.amount }}</div>
+                  </div>
+                </div>
+
+                <div [id]="'collapse' + i" class="collapse" [attr.aria-labelledby]="'heading' + i"
+                  data-parent="#accordionTransaccion">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-4"><strong>ID:</strong> {{ item.id }}</div>
+                      <div class="col-sm-4"><strong>Bank:</strong> {{ item.bank }}</div>
+                      <div class="col-sm-4">
+                        <strong>Status:</strong>
+                        <span [ngClass]="item.status ? 'text-success' : 'text-danger'">
+                          {{ item.status ? ' Successful' : 'Rejected' }}
+                        </span>
+                      </div>
+                      <div class="col-sm-6"><strong>Beneficiary Name:</strong> {{ item.beneficiaryName }}</div>
+                      <div class="col-sm-6"><strong>Account:</strong> {{ item.accountNumber }}</div>
+                      <div class="col-sm-6"><strong>Description:</strong> {{ item.description }}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
